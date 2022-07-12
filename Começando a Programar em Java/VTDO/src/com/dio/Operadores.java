@@ -1,9 +1,8 @@
 package com.dio;
 
-/* Exercício da aula 3 de Variáveis, Tipos de Dados e Operadores Aritméticos */
+/* Exercício AULA 3 de Variáveis, Tipo de Dado e Operadores aritméticos */
 
-public class matematica {
-
+public class Operadores {
     public static void main(String[] args) {
 
         System.out.println("PrePos");
@@ -107,3 +106,4 @@ public class matematica {
         System.out.println("c *= i += 5= " + c);
     }
 }
+
