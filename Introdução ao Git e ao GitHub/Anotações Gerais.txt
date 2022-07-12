@@ -1,7 +1,0 @@
-Link para download do Git: https://git-scm.com/downloads
-
-# Comandos
-
-# Termos e significados
-
-# Passo a passo

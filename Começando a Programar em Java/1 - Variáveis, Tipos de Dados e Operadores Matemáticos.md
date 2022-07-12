@@ -65,12 +65,27 @@ VI: um valor inicial, caso se deseje
 - Aritmético: +, -, *, / e %
 - Atribuição: =, +=, -=,*=, /= e %=
 
+# Conversões *casting*
+
+## Definição
+
+*"É a transformação de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa"*
+
+### Tipos:
+
+- Upcast 
+	- implícito, não gera problemas
+	- promoção de um tipo de dado de menor capacidade de armazenamento, para um tipo de maior capacidade
+- Downcast 
+	- explícito
+	- rebaixamento de um tipo de dado de maior capacidade de armazenamento, para um tipo de menor capacidade
+	- precisa dizer para qual tipo será rebaixado
+	- possíveis perdas de dados
 
 
+## Agradecimentos
 
-
-
-
+[Professor Thiago Leite](https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/)
 
 
 
