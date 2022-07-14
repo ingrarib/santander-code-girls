@@ -22,7 +22,7 @@ C: código que possui ou vazio
 
 >> Um método deve ser declarado dentro de uma classe. Ele é definido com o nome do método, seguido de parênteses (). Java fornece alguns métodos pré-definidos, como ***System.out.println()*** , mas você também pode criar seus próprios métodos para realizar determinadas ações.
 
-### Exemplo
+#### Exemplo
 
 ```
 public class Main
@@ -34,14 +34,14 @@ public class Main
 - **static** significa que o método pertence à classe Main e não um objeto da classe Main.
 - **void** significa que este método não tem um valor de retorno.
 
-## Utilização
+### Utilização
 
 Passa-se uma mensagem através de uma classe ou objeto.
 
 `nome_da_classe.nome_do_metodo()`  
 `nome_do_objeto.nome_do_metodo()`
 
-## Particularidades
+### Particularidades
 - **Assinatura:** é a forma de identificar unicamente o método 
     - Ass = nome + parâmetros
 - **Construtor e Destrutor:** são métodos especiais usados na Orientação a Objetos.
@@ -50,7 +50,7 @@ Passa-se uma mensagem através de uma classe ou objeto.
     - Por valor (cópia)
     - Por referência (endereço)
 
-## Boas Práticas
+### Boas Práticas
 
 - Nomes devem ser descritivos, mas curtos.
 - Notação camelo
@@ -58,10 +58,82 @@ Passa-se uma mensagem através de uma classe ou objeto.
 - Evite lista de parâmetros longas
 - Visibilidades adequadas
 
-## Agradecimentos
+## Sobrecargas
+
+*"É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome"*
+
+### Criação
+
+- Alterar a assinatura do método
+    - Ass = nome + parâmetros
+
+**Mudou a lista de parâmetros e manteve-se o nome do Método, foi criado uma Sobrecarga!!**
+
+#### Exemplos    
+```
+converterParaInteiro(float f);
+converterParaInteiro(double d);
+converterParaInteiro(String s);
+converterParaInteiro(float f, RoundType rd);
+converterParaInteiro();
+```
+
+### Sobrecarga x Sobrescrita
+ 
+A sobrecarga é criada quando se mantém o nome de um método e muda-se seus parâmetros.  
+
+Já a sobrescrita está relacionada a **Programação Orientada à Objetos**, para podermos sobrescrever o método precisamos também ter o conhecimento sobre herança que também está relacionada a **Programação Orientada à Objetos**.
+
+## Retornos (_return_)
+
+"Retorno é uma instrução de interrupção, assim como o _break_ e o _continue_, porém estes estão mais ligados a estruturas de laços de repetição e o _return_ está muito atrelado à um método!"*
+
+### Funcionamento
+
+O método executa seu retorno quando:
+- Completa todas as instruções internas
+- Chega a uma declaração explicita de retorno (_return_)
+- Lança uma exceção
+
+### Considerações
+
+- O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+- O tipo de dado do _return_ deve ser compatível com o do método;
+- Se o método for sem retorno (void), pode ou não ter um "return" para encerrar sua execução.
+
+#### Exemplos
+```
+public String getMensagem(){
+    return "Olá!"
+}
+
+public double getJuros(){
+    return 2.36;
+} 
+
+public int getParcelas(){
+    return 1.36f;
+} // erro de compilação: está retornando um float(f) quando a variável declarada é um inteiro(int).
+
+public void setIdade(){
+    return 10;
+} // erro: void não pode retornar nenhum valor.
+
+public void executar(){
+    ...
+    return;
+    ...
+}
+```
+
+# Agradecimentos
 
 [Professor Thiago Leite](https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/)
 
-## Referências
+# Referências
 
 [Métodos Java - w3schools](https://www.w3schools.com/java/java_methods.asp)
+
+# Links Úteis
+
+[Class PrintStream](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html)

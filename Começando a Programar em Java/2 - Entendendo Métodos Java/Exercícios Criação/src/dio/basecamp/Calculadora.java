@@ -1,6 +1,7 @@
-package one.digitalinnovation.basecamp;
+package dio.basecamp;
 
 // Exemplo para o exercício da Aula 1 de Métodos.
+// Criação dos métodos: soma, subtração, multiplicação e divisão
 
 public class Calculadora {
 
@@ -18,7 +19,7 @@ public class Calculadora {
         System.out.println("A subtração de " + numero1 + " menos " + numero2 + " é " + resultado);
     }
 
-    public static void mutiplicacao(double numero1, double numero2){
+    public static void multiplicacao(double numero1, double numero2){
 
         double resultado = numero1 * numero2;
 
@@ -31,4 +32,5 @@ public class Calculadora {
 
         System.out.println("A divisão de " + numero1 + " por " + numero2 + " é " + resultado);
     }
+
 }
