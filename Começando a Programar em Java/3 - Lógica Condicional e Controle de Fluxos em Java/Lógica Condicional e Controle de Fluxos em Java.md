@@ -1,7 +1,7 @@
 # Lógica Condicional e Controle de Fluxos em Java
 ## Operadores Relacionais
 
-"São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado"
+*"São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado"*
 
 Tipos:
 
@@ -12,30 +12,58 @@ Tipos:
 
 Similaridade
 
-- Igualdade: determina se um operando é igual ao outro
-- Diferença: determina se um operando não é igual ao outro
-
-Simbologia:
-
-- Igualdade: ==
-- Difreneça: !=
+- **Igualdade:** determina se um operando é igual ao outro
+    - **Simbologia:** ==
+    
+- **Diferença:** determina se um operando não é igual ao outro
+    - **Simbologia:** !=
 
 Tamanho (grandezas):
 
-- Maior: determina se um operando é maior do que o outro
-- Maior igual: determina se um operando é maior ou igual a outro
+- **Maior:** determina se um operando é maior do que o outro
+    - **Simbologia:** >
+    
+- **Maior igual:** determina se um operando é maior ou igual a outro
+    - **Simbologia:**>=
+    
+- **Menor:** determina se um operando é menor do que o outro
+    - **Simbologia:** <
+    
+- **Menor igual:** determina se um operando é menor ou igual a outro
+    - **Simbologia:** <=
 
-Simbologia:
+## Operadores Lógicos
 
-- Maior: >
-- Maior igual: >=
+*"São símbolos especiais quais são capazes de realizar comparações lógicas entre operadores lógicos ou expressões e, em seguida, retornar um resultado."*
 
-Tamanho (grandezas):
+Tipos:
 
-- Menor: determina se um operando é menor do que o outro
-- Menor igual: determina se um operando é menor ou igual a outro
+- **Conjunção:** Operação lógica que só é verdadeira quando ambos os operandos ou expressões envolvidas são verdade.
+    - **Simbologia:** &&
+    - **Terminologia:** and/e
+    
+- **Disjunção:** Operação que só é falsa quando ambos os operandos ou expressões envolvidas são falsos.
+    - **Simbologia:** | |
+    - **Terminologia:** or/ou
+    
+- **Disjunção exclusiva:** Operação que só é verdade quando ambos os operandos ou expressões são opstos
+    - **Simbologia:** ^
+    - **Terminologia:** xor
+    
+- **Negação:** Operação que inverte o valor lógico de um operando ou expressão
+    - **Simbologia:** !
+    - **Terminologia:** inversão
 
-Simbologia:
+##### Curiosidades
+- Operadores bitwise: & e | 
+    - bits
+- Operadores shift: ~, >>, >>>, <<
+    - inverte os bits do número ou mexe com os zeros a esquerda ou a direita do número
+    
+### Boas Práticas
 
-- Maior: <
-- Maior igual: <=
+- Crie variáveis auxiliares para guardar resultados intermediários
+    
+# Agradecimentos
+
+[Professor Thiago Leite](https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/)
