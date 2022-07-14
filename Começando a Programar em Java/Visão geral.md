@@ -1,4 +1,4 @@
-# Histórico
+# História
 
 - Década de 90 (Maio de 1995) - Sun Microsystems
 - Programação orientada à objetos
