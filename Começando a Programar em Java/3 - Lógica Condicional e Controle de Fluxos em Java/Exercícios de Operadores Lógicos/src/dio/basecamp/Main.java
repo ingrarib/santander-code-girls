@@ -1,7 +1,6 @@
 package dio.basecamp;
 
-// Exercício de exemplo da Aula 2 de Operadores Lógicos e Relacionais, Controle de Fluxos e Blocos
-
+// Exercício de exemplo da Aula 2 de Operadores Lógicos e Relacionais, Controle de Fluxos e Blocos.
 public class Main {
 
     public static void main(String[] args) {
