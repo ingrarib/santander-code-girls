@@ -63,7 +63,41 @@ Tipos:
 ### Boas Práticas
 
 - Crie variáveis auxiliares para guardar resultados intermediários
-    
+
+## Controle de Fluxo
+
+*"São estruturas que tem a capacidade de direcionar o fluxo de execução do código"*    
+
+Tipos:
+
+- **Decisão: if, if-else, if-else-if, switch e operador ternário**
+- Repetição: for, while, do while
+- Interrupção: break, continue e return
+
+### Decisão
+
+*"Estrutura que avalia uma condição booleana ou variável para direcionar o fluxo da execução."*
+
+- if = se
+- switch = escolha
+- operador ternário
+
+```java
+if (condição){
+}
+
+if (condição){
+} else {
+}
+
+if (condição){
+} else if (condição) {
+} else {
+}
+```
+
+
+
 # Agradecimentos
 
 [Professor Thiago Leite](https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/)
