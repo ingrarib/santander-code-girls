@@ -80,7 +80,7 @@ Tipos:
 
 - if = se
 - switch = escolha
-- operador ternário
+- operador ternário (evitar o uso)
 
 ```java
 if (condição){
@@ -95,7 +95,34 @@ if (condição){
 } else {
 }
 ```
+```java
+condição ? true : false; 
 
+condição ? true : null;
+
+ligado ? desligar : ligar;
+
+emMovimento ? freia : null;
+
+```
+```java
+switch (variável){
+    case 1:
+        break;
+    case ...:
+        break;
+    default:
+        break;
+} // opções de variáveis: byte short, char
+ // mais comuns de serem utilizados: int, Enum, String
+```
+### Boas Práticas
+
+- Switch é para valores exatos e if para expressões booleanas
+- Evitar usar o default do switch para "cases genéricos"
+- Evitar o efeito "flecha" dos if's (visualmente ruim)
+- Evitar muitos if's aninhados
+- Usar a "Boa prática" da aula 2 para diminuir o tamanho do if
 
 
 # Agradecimentos
