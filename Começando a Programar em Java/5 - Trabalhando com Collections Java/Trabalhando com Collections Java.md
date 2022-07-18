@@ -79,6 +79,8 @@
 
 [Slides Set](https://drive.google.com/file/d/1tS3Np0gVTBbfr9CyOjgevsjjNd083peY/view)
 
+[Slides Map](https://drive.google.com/file/d/1u02CyiElDJR4wmDQ8vq3aNYe10-iSVt-/view)
+
 ## Agradecimentos
 
 [Professora Camila Cavalcante](https://www.linkedin.com/in/cami-la/)
