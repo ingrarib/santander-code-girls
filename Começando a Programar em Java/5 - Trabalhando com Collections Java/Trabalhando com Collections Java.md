@@ -39,6 +39,34 @@
 - Pior performance dos três
 - Não permite nenhum elemento null
 
+## Coleções de Pares: Map
+### java.util.Map
+- O map não se estende da interface Collections, porém faz parte do framework Collections.
+- O map é um objeto que nos permite armazenar múltiplos elementos (variáveis primitivas ou outros objetos).
+- Cada elemento armazenado no map tem uma *key* e um *value* (chave e valor).
+- As chaves devem ter valores únicos, não pode haver repetições de chaves, os valores podem se repetir.
+
+### HashMap
+- Big O notation: O(1)
+- Itera os elementos aleatoriamente
+- Permite chaves nulas 
+- Implementa a interface **Map**
+- Não tem sincronização, use ` Collections.synchronizedMap() `
+
+### LinkedHashMap
+- Big O notation: O(1)
+- Itera os elementos de acordo com a ordem de inserção
+- Permite chaves nulas
+- Implementa a interface **Map**
+- Não tem sincronização, use ` Collections.synchronizedMap() `
+
+### TreeMap
+- Big O notation: O(log n) - performance um pouco mais lenta
+- Itera os elementos de acordo com a ordem natural das chaves
+- Não permite chaves nulas
+- Implementa as interface **Map**, **SortedMap** e **NavigableMap**
+- Não tem sincronização, use ` Collections.synchronizedMap() `
+
 ## Referências
 
 [Repositório no GitHub da Aula](https://github.com/cami-la/curso-dio-intro-collections)
