@@ -139,6 +139,17 @@ carro.<método>
 
 Carro.<método>
 ```
+## Pacotes
+*"São uma organização física ou lógica criada para separar classes com responsabilidades distintas. Com isso, espera-se que a aplicação fique mais organizada e seja possível separar classes de finalidades e representatividade diferentes."*  
+
+## Visibilidades
+*"Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo ou método pode ser usado. A utilização de modificadores de acesso é fundamental para o uso efetivo da Orientação a Objetos. Algumas boas p´raticas e conceitos só são atingidos com o uso correto deles."*  
+
+**Tipos**
+- Private 
+- Protected
+- Public
+- Em Python tudo é público!
 
 # Agradecimentos
 
