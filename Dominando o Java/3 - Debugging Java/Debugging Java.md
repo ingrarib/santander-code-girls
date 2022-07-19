@@ -9,16 +9,16 @@ Existem duas grandes categorias que englobam a natureza do erro:
 ### Erros de Sintaxe
 
 É um erro nas regras estabelecidas da linguagem:  
-i. Parênteses, chaves, colchetes que abrem mas não fecham;  
-ii. Duas instruções sem um ponto-e-vírgula entre elas;  
-iii. Uma palavra-chave sendo usada numa posição inesperada.  
+i. Parênteses, chaves, colchetes que abrem mas não fecham;
+ii. Duas instruções sem um ponto-e-vírgula entre elas;
+iii. Uma palavra-chave sendo usada numa posição inesperada.
 
-### Erros de Semântica
+### Eroos de Semântica
 
 É um erro na "lógica do código", em sua semântica, o código está sintaticamente correto, porém não faz o que se esperava dele:  
-i. Tentar dividir um número por uma String ou por zero;  
-ii. Atribuir um valor incoerente a um tipo de dado;  
-iii. Tentar fechar um arquivo que não foi aberto.  
+i. Tentar dividir um número por uma String ou por zero;
+ii. Atribuir um valor incoerente a um tipo de dado;
+iii. Tentar fechar um arquivo que não foi aberto.
 
 ## Depuração/Debugging
 
@@ -42,6 +42,6 @@ Toda invocação de método é empilhada em uma estrutura de dados que isola a �
 
 #
 
-Disponibilizado por [Professora Camila Cavalvante](https://github.com/cami-la)
+Disponibilizado por [Professora Camila Cavalcante](https://github.com/cami-la)
 
 
