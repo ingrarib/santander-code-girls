@@ -13,7 +13,7 @@ Bootcamp Santander Code Girls 2022
 - Apache Maven
 
 <h2>Certificado</h2>
-<img src="Certificado.png" alt="Certificado Bootcamp Santander Code Girls">
+<img src="Certificado.pdf" alt="Certificado Bootcamp Santander Code Girls">
 
 
 
