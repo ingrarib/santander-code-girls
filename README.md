@@ -14,7 +14,7 @@ Bootcamp Santander Code Girls 2022
 
 <h2>Certificado</h2>
 
-<img src="Certificado.pdf" alt="Certificado Bootcamp Santander Code Girls">
+<img src="SantanderCodeGirls.png" alt="Certificado Bootcamp Santander Code Girls">
 
 
 
